@@ -1,0 +1,86 @@
+!
+! Dodgy Theme - Font: Termsynu
+!
+! More to come...
+!
+!
+
+
+!----===== URxvt
+URxvt.cursorUnderline: False
+URxvt.cursorBlink: false 
+URxvt.cursorColor: #D0D0D0
+
+URxvt.scrollBar: true
+URxvt.scrollBar_floating: true
+URxvt.scrollBar_right: true
+URxvt.scrollColor: #202020
+
+URxvt.saveLines:32768
+URxvt.urllauncher: chromium
+URxvt.underlineURLs: true
+URxvt.matcher.button: 3
+
+
+!----===== Extensions
+URxvt.perl-ext-common:  default,tabbedex,clipboard,matcher
+
+
+!----===== Tab
+URxvt.tabbed.title: no
+
+!----===== Language & font
+URxvt.imLocale:   ja_JP.UTF-8
+URxvt.font:       xft:Termsynu, \
+                  xft:IPAPGothic:size=11:antialias=true
+                  !xft:Kochi Gothic:antialias=true
+
+!URxvt.Font:      xft:GohuFont
+!URxvt.Font:      xft:ohsnap
+!URxvt.Font:      xft:lime.se 
+
+!----===== Xft
+Xft.dpi:          96
+Xft.antialias:    true
+Xft.rgba:         rgb
+Xft.hinting:      true
+Xft.hintstyle:    hintslight
+
+!----===== Colors
+
+!--Dodgy Theme
+*background:     #101010
+*foreground:     #D0D0D0
+
+!black
+*color0:         #101010
+*color8:         #303030
+
+!red
+*color1:         #960050
+*color9:         #FF0090
+
+!green
+*color2:         #66AA11
+*color10:        #80FF00
+
+!yellow
+*color3:         #C47F2C
+*color11:        #FFBA68
+
+!blue
+*color4:         #30309B
+*color12:        #5F5FEE
+
+!magenta
+*color5:         #7E40A5
+*color13:        #BB88DD
+
+!cyan
+*color6:         #3579A8
+*color14:        #4EB4FA
+
+!white
+*color7:         #9999AA
+*color15:        #D0D0D0
+
